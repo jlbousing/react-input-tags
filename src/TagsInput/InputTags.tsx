@@ -14,7 +14,7 @@ export const InputTags = (props: IProps) => {
   const [isKeyReleased, setIsKeyReleased] = useState(false);
 
   useEffect(() => {
-    setTags(tags);
+    setTags(props.tags);
   },[]);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export const InputTags = (props: IProps) => {
     const { key } = e;
     const trimmedInput = input.trim();
   
-    if (key === ',' && trimmedInput.length && !tags.includes(trimmedInput)) {
+    if (key === ',' || key === 'Enter'  && trimmedInput.length && !tags.includes(trimmedInput)) {
       e.preventDefault();
       setTags(prevState => [...prevState, trimmedInput]);
       setInput('');
