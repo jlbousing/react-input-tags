@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { InputTags } from './TagsInput/InputTags';
 
 function App() {
@@ -17,10 +15,6 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-
       <div className='app-container'>
         <div className='app-input-container'>
         <InputTags
