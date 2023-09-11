@@ -1,5 +1,5 @@
 {
-  "name": "react-input-tags",
+  "name": "@jlbousing/react-input-tags",
   "version": "0.1.0",
   "main": "src/InputTags/InputTags.tsx",
   "dependencies": {
