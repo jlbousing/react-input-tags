@@ -2,6 +2,7 @@
   "name": "@jlbousing/react-input-tags",
   "version": "0.1.0",
   "main": "src/InputTags/InputTags.tsx",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
