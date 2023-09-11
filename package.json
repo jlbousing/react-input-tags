@@ -45,7 +45,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlbousing/react-input-tags.git"
+    "url": "https://github.com/jlbousing/react-input-tags.git"
   },
   "keywords": [
     "tags",
