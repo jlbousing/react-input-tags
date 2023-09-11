@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import { InputTags } from './TagsInput/InputTags';
+import { InputTags } from './InputTags/InputTags';
 
 function App() {
-  
   
   const [tags, setTags] = useState<string[]>([]);
 

@@ -2,6 +2,7 @@
   "name": "react-input-tags",
   "version": "0.1.0",
   "private": true,
+  "main": "src/InputTags/InputTags.tsx",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -39,5 +40,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "React component to make a friendly input tags",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlbousing/react-input-tags.git"
+  },
+  "keywords": [
+    "tags",
+    "reactjs",
+    "input"
+  ],
+  "author": "Jorge Luis Bou-saad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlbousing/react-input-tags/issues"
+  },
+  "homepage": "https://github.com/jlbousing/react-input-tags#readme"
 }
