@@ -1,6 +1,6 @@
 {
-  "name": "bousing-react-input-tags",
-  "version": "0.1.0",
+  "name": "jlbousing-react-input-tags",
+  "version": "0.1.1",
   "main": "src/InputTags/InputTags.tsx",
   "private": false,
   "dependencies": {
