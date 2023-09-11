@@ -1,5 +1,5 @@
 {
-  "name": "@jlbousing/react-input-tags",
+  "name": "bousing-react-input-tags",
   "version": "0.1.0",
   "main": "src/InputTags/InputTags.tsx",
   "private": false,
