@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import '../syles/style.css';
 
-interface IProps {
+interface ITagsProps {
     tags: string[];
     updateTags: (tags: string[]) => void;
 
 };
 
-export const InputTags = (props: IProps) => {
+export const InputTags = (props: ITagsProps) => {
 
   const [input, setInput] = useState<string>('');
   const [tags, setTags] = useState<string[]>([]);
